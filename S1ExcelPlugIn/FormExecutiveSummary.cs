@@ -302,8 +302,6 @@ namespace S1ExcelPlugIn
         {
             if (textBoxSMTPHost.Text == "" ||
                 textBoxSMTPPort.Text == "" ||
-                textBoxUsername.Text == "" ||
-                textBoxPassword.Text == "" ||
                 textBoxMailFrom.Text == "")
             {
                 MessageBox.Show("Email server information not configured", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
